@@ -1,724 +1,353 @@
-<!DOCTYPE html>
+{% load static %}
 
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-tertiary-fixed":"#3f0300","error-container":"#ffdad6","tertiary-fixed":"#ffdad4","on-surface":"#1c1c17","tertiary-container":"#4f0e05","secondary-container":"#fece57","inverse-on-surface":"#f3f1e9","outline":"#7d766e","on-primary-fixed-variant":"#4b4640","on-secondary":"#ffffff","outline-variant":"#cec5bc","tertiary":"#2e0100","secondary-fixed-dim":"#eec14b","secondary-fixed":"#ffdf98","on-surface-variant":"#4b463f","surface":"#fcf9f1","surface-container":"#f1eee6","on-secondary-fixed-variant":"#5a4300","primary-fixed-dim":"#cdc5bd","primary-container":"#2a2621","surface-tint":"#635d57","on-secondary-container":"#735700","on-background":"#1c1c17","error":"#ba1a1a","surface-container-highest":"#e5e2da","primary-fixed":"#eae1d9","surface-dim":"#dcdad2","on-tertiary":"#ffffff","on-primary":"#ffffff","on-tertiary-fixed-variant":"#7b2e21","on-tertiary-container":"#d47261","on-secondary-fixed":"#251a00","secondary":"#775a00","tertiary-fixed-dim":"#ffb4a6","surface-container-low":"#f6f3eb","surface-variant":"#e5e2da","on-error-container":"#93000a","primary":"#15110d","on-primary-container":"#938d86","surface-bright":"#fcf9f1","on-primary-fixed":"#1f1b16","on-error":"#ffffff","surface-container-high":"#ebe8e0","inverse-primary":"#cdc5bd","surface-container-lowest":"#ffffff","background":"#fcf9f1","inverse-surface":"#31312b"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"gutter":"1.5rem","margin":"3rem","space-xs":"0.375rem","space-xl":"3.5rem","margin-mobile":"1.25rem","space-sm":"0.75rem","gutter-mobile":"1rem","space-lg":"2rem","space-md":"1.25rem"},fontFamily:{"display-lg-mobile":["EB Garamond"],"headline-sm":["EB Garamond"],"display-md":["EB Garamond"],"body-lg":["Plus Jakarta Sans"],"display-md-mobile":["EB Garamond"],"display-lg":["EB Garamond"],"title-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-lg":["EB Garamond"],"headline-md":["EB Garamond"],"body-md":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"]},fontSize:{"display-lg-mobile":["38px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"400"}],"headline-sm":["21px",{"lineHeight":"28px","fontWeight":"600"}],"display-md":["42px",{"lineHeight":"50px","letterSpacing":"-0.01em","fontWeight":"400"}],"body-lg":["17px",{"lineHeight":"28px","fontWeight":"400"}],"display-md-mobile":["32px",{"lineHeight":"38px","letterSpacing":"-0.01em","fontWeight":"400"}],"display-lg":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"400"}],"title-lg":["18px",{"lineHeight":"26px","letterSpacing":"0.01em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"title-md":["16px",{"lineHeight":"24px","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.06em","fontWeight":"500"}],"headline-lg":["32px",{"lineHeight":"40px","fontWeight":"500"}],"headline-md":["26px",{"lineHeight":"34px","fontWeight":"500"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"600"}]}}}};</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_12px_32px_-4px_rgba(42,38,33,0.06),0_4px_12px_-2px_rgba(197,155,39,0.04)]"><div class="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between gap-6"><div class="flex items-center gap-4 flex-shrink-0"><img alt="Discover Monasteries Sacred Emblem" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgYe3qAG9R0BsoMp_l9JxCoRSDyZabJW3UueE1FLGAhlz3LODwu7Nhpf_qDdqwWXF5uz6HNhsDqe8YX7GI82_YeLXJD6ZnLMivAg_P8hKbGK4HjGoIVKYlH89-vM4PXEiZMTvaJnRHSaYNX1nNidYJaMCoWX5ANQDC1rhRtH_zn4KGyr8NqcJPgXbZz_oaN8kR9_BvEo6JNYt5Fsa38E5qMC1Ic-ZWmg1OJOGTUB3XFNZMWntVZ9Ee"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-primary leading-none">Discover Monasteries</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary mt-0.5">Anambra Sacred Sanctuaries</span></div></div><nav class="hidden xl:flex items-center gap-7" data-active-classes="text-primary font-title-md"><a aria-current="page" class="transition-colors text-primary font-title-md" data-path="home" href="#">Home</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="st-benedict-monastery-ozubulu" href="#">St. Benedict Ozubulu</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="holy-cross-monastery-nteje" href="#">Holy Cross Nteje</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="carmelite-monastery" href="#">Carmelite Monastery</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="monastic-retreats-hospitality" href="#">Retreats &amp; Hospitium</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="visitor-guidelines-liturgy-hours" href="#">Horarium &amp; Silence</a></nav><div class="flex items-center gap-4 flex-shrink-0"><a class="hidden sm:inline-flex items-center justify-center px-4 py-2 rounded-lg bg-primary-container text-on-primary font-title-md text-title-md shadow-sm hover:bg-primary transition-all" data-path="plan-a-sacred-retreat" href="#">Plan Retreat</a><a class="hidden md:inline-flex items-center justify-center px-3.5 py-1.5 rounded-lg bg-transparent text-primary font-label-md text-label-md uppercase tracking-wider hover:bg-surface-container-high transition-colors" data-path="prayer-intentions" href="#">Prayer Intentions</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
-<!-- Immersive Sanctuary Hero Section -->
-<section class="relative -mt-20 w-full overflow-hidden bg-primary text-on-primary">
-<!-- Atmospheric Visual Layer with Warm Liturgical Tint -->
-<div class="absolute inset-0 z-0">
-<div class="w-full h-full bg-cover bg-center opacity-40 scale-105 transition-transform duration-1000 ease-out" data-alt="Serene stone monastery cloister arcade basking in golden late afternoon Nigerian sunlight. Monks in traditional habit walking along the arched stone colonnade beside lush tropical palms and tranquil garden foliage, imbued with solemn peace and deep monastic stillness." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDhyL1xnI68QnwCm_cIMdYzcHzq8gkMyTBHKntJw617it4NPCJY9J0kU7hYd8_kIV7WbD3uzCGlRCeXcX9oPK85KnoagyNgFud9AdajYHCu1s2h4CDcH4WmQ6cW_fihO8Nb7N9jSub_IW0wpveC0Rx80pmnsuLyQVAUOqwo6Ou5kdEuc-vagreTX2repWdHlj3Imlgz1S6CWpxknFixvfYJ5fZS69Hm1j-MGODTYrwhSaOVwJGCnmye')"></div>
-<div class="absolute inset-0 bg-gradient-to-b from-primary/80 via-primary/60 to-surface"></div>
-<div class="absolute inset-0 bg-gradient-to-r from-primary via-transparent to-primary/70"></div>
-</div>
-<!-- Hero Content Container -->
-<div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pt-36 pb-20 lg:pt-44 lg:pb-28 flex flex-col items-center text-center">
-<!-- Liturgical Overline Badge -->
-<div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-surface-container-highest/20 backdrop-blur-md mb-8 shadow-sm">
-<span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed animate-ping"></span>
-<span class="font-label-sm text-label-sm tracking-[0.2em] uppercase text-secondary-fixed">
-          Sacred Sanctuaries of Anambra State • Nigeria
-        </span>
-</div>
-<!-- Majestic Page Title -->
-<h1 class="font-display-lg text-display-lg max-w-4xl tracking-tight text-surface-bright leading-[1.08] mb-6">
-        Seek Solitude, <br class="hidden sm:inline"/>
-<span class="italic font-light text-secondary-fixed">Encounter the Divine</span>
-</h1>
-<!-- Contemplative Narrative Paragraph -->
-<p class="font-body-lg text-body-lg text-surface-container-highest max-w-2xl mx-auto leading-relaxed mb-10 font-light">
-        Step away from the clamor of the world into timeless cloisters of prayer, work, and silence. Discover the consecrated Catholic abbeys and contemplative monasteries nestled in the peaceful hills and palm groves of Anambra.
-      </p>
-<!-- Sanctuary Quick Navigation Actions -->
-<div class="flex flex-wrap items-center justify-center gap-4 mb-14">
-<a class="inline-flex items-center gap-3 px-6 py-3.5 rounded-lg bg-secondary text-surface font-title-md text-title-md hover:bg-secondary-container hover:text-on-secondary-container transition-all duration-300 shadow-xl shadow-black/20 group" href="#monasteries-directory">
-<span>Explore Sacred Monasteries</span>
-<span class="material-symbols-outlined text-[18px] group-hover:translate-y-0.5 transition-transform">arrow_downward</span>
-</a>
-<a class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-lg bg-surface/10 backdrop-blur-md text-surface hover:bg-surface/20 transition-all font-title-md text-title-md" data-path="monastic-retreats-hospitality" href="#">
-<span class="material-symbols-outlined text-secondary-fixed text-[20px]">calendar_month</span>
-<span>Retreat Calendar</span>
-</a>
-<a class="inline-flex items-center gap-2.5 px-5 py-3.5 rounded-lg bg-surface/5 backdrop-blur-sm text-surface-dim hover:text-surface transition-all font-title-md text-title-md hover:bg-surface/10" data-path="visitor-guidelines-liturgy-hours" href="#">
-<span class="material-symbols-outlined text-[19px]">schedule</span>
-<span>Daily Horarium &amp; Masses</span>
-</a>
-</div>
-<!-- Real-time Liturgical Horarium Ticker -->
-<div class="w-full max-w-3xl rounded-xl bg-surface-container/95 backdrop-blur-lg px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4 text-on-surface shadow-2xl">
-<div class="flex items-center gap-3.5 text-left">
-<div class="w-10 h-10 rounded-full bg-secondary/15 flex items-center justify-center text-secondary flex-shrink-0">
-<span class="material-symbols-outlined text-[20px]">church</span>
-</div>
-<div>
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary block font-semibold">Current Monastic Hour</span>
-<span class="font-title-md text-title-md text-primary font-semibold">Vesperae (Evening Liturgical Prayer) • 6:00 PM</span>
-</div>
-</div>
-<div class="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
-<span class="w-2 h-2 rounded-full bg-secondary"></span>
-<span>Guests Welcome in Sacred Silence</span>
-</div>
-</div>
-</div>
-</section>
-<!-- Canonical Monastery Directory -->
-<section class="max-w-7xl mx-auto px-6 lg:px-12 py-24 w-full" id="monasteries-directory">
-<!-- Section Heading -->
-<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
-<div class="max-w-2xl">
-<span class="font-label-md text-label-md uppercase tracking-[0.16em] text-secondary mb-2 block font-semibold">
-          Concurrence of Holy Enclosures
-        </span>
-<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
-          Three Consecrated Havens of Spiritual Stillness
-        </h2>
-</div>
-<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
-        Answering the call of St. Benedict, St. Teresa of Ávila, and St. Bernard on the hallowed soils of southeastern Nigeria.
-      </p>
-</div>
-<!-- Cards Grid -->
-<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
-<!-- Card 1: St. Benedict Monastery, Ozubulu -->
-<article class="group rounded-xl bg-surface-container-lowest overflow-hidden flex flex-col shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
-<div class="relative h-64 overflow-hidden bg-surface-container">
-<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Majestic stone church and Romanesque cloister bell tower of St. Benedict Monastery in Ozubulu Nigeria, surrounded by tropical green gardens and arched stone porticoes with monks walking quietly in the sunlit midday." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCZyW2HUdVHlUOqoe1DdzPIuhBXH9CUTmbdLBUDtXa4DA1TeHd5DgXTYc-MYK1EAr7nCvdlSx0zXQx7FzFqBIXDg2jhomLRGMx7OD6KTQmfHBcRUK9BI3tOQx9oWV2rrrvk567lNE2wxa1pqT_WGQlD_SMPcBGJsQPhVig2IY19WDUGopvVfc7zuy480qmJm9INJLH4ksBm3ZT6Ct9P7Jo5OJkTmiX6fUhO9s6hWxruoMXnRLP4_Mzd')"></div>
-<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent"></div>
-<div class="absolute top-4 left-4">
-<span class="px-3 py-1 rounded-sm bg-surface-bright/90 backdrop-blur-md text-primary font-label-sm text-label-sm uppercase tracking-wider font-semibold shadow-sm">
-              Order of Saint Benedict (OSB)
-            </span>
-</div>
-<div class="absolute bottom-4 left-4 right-4 flex items-center justify-between text-surface-bright">
-<div class="flex items-center gap-1.5 font-label-sm text-label-sm tracking-wide">
-<span class="material-symbols-outlined text-[16px] text-secondary-fixed">pin_drop</span>
-<span>Ozubulu, Ekwusigo LGA</span>
-</div>
-<span class="px-2 py-0.5 rounded bg-secondary/80 text-surface text-[10px] font-semibold uppercase tracking-widest">
-              Abbey
-            </span>
-</div>
-</div>
-<div class="p-6 sm:p-8 flex-1 flex flex-col justify-between">
-<div>
-<h3 class="font-headline-sm text-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">
-              St. Benedict Monastery
-            </h3>
-<p class="font-headline-sm text-[16px] italic text-secondary font-normal mb-4">
-              “Ora et Labora • Prayer and Handcraft in Divine Harmony”
-            </p>
-<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
-              Venerable haven of liturgical psalmody, traditional manual labor, and Benedictine hospitality. Known across West Africa for its high-altar Gregorian chant and expansive organic farmsteads.
-            </p>
-<div class="flex flex-wrap gap-2 mb-8">
-<span class="px-2.5 py-1 rounded-sm bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Gregorian Chants</span>
-<span class="px-2.5 py-1 rounded-sm bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Monastic Apiary &amp; Honey</span>
-<span class="px-2.5 py-1 rounded-sm bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Herbal Infusions</span>
-<span class="px-2.5 py-1 rounded-sm bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Silent Guest Hospitium</span>
-</div>
-</div>
-<div class="pt-6 bg-surface-container-lowest flex items-center justify-between">
-<a class="inline-flex items-center gap-2 font-title-md text-title-md text-primary hover:text-secondary transition-colors group/btn" data-path="st-benedict-monastery-ozubulu" href="#">
-<span>Enter Sanctuary Guide</span>
-<span class="material-symbols-outlined text-[18px] group-hover/btn:translate-x-1 transition-transform">east</span>
-</a>
-<span class="material-symbols-outlined text-secondary text-[24px]">workspace_premium</span>
-</div>
-</div>
-</article>
-<!-- Card 2: Our Lady of Mount Carmel, Awka/Ekwulobia -->
-<article class="group rounded-xl bg-surface-container-lowest overflow-hidden flex flex-col shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
-<div class="relative h-64 overflow-hidden bg-surface-container">
-<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Interior of a candlelit Carmelite chapel during quiet prayer with stained glass glowing warmly, wooden choir stalls, and veiled contemplative cloistered nuns bowing in deep silent adoration before the blessed sacrament." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAp4jzW2Nv2QAOqLrZIZNWysGPqsIjtZeAa8UkmmwXH7i9cdqMe0dd8GLGd8Dq4jfUUOVN36ouqtDSLqrzmknq8C04Hc5iBHt48Rbv90KJ30o11Vk7L9ipzDRELK1G7O90JdukRNNOTtmrP2Var52RIq_gxb6MfcjzyhKJb7fizlhPWz-H0mdXdtA_5Z6J2GQcbYN1v7-RVudYRMqmKPxQN1cjeeV9QEw9sQTDPPo3MUdhebe9zCVDA')"></div>
-<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent"></div>
-<div class="absolute top-4 left-4">
-<span class="px-3 py-1 rounded-sm bg-surface-bright/90 backdrop-blur-md text-primary font-label-sm text-label-sm uppercase tracking-wider font-semibold shadow-sm">
-              Discalced Carmelites (OCD)
-            </span>
-</div>
-<div class="absolute bottom-4 left-4 right-4 flex items-center justify-between text-surface-bright">
-<div class="flex items-center gap-1.5 font-label-sm text-label-sm tracking-wide">
-<span class="material-symbols-outlined text-[16px] text-secondary-fixed">pin_drop</span>
-<span>Awka • Ekwulobia Foothills</span>
-</div>
-<span class="px-2 py-0.5 rounded bg-tertiary-container text-tertiary-fixed text-[10px] font-semibold uppercase tracking-widest">
-              Strict Enclosure
-            </span>
-</div>
-</div>
-<div class="p-6 sm:p-8 flex-1 flex flex-col justify-between">
-<div>
-<h3 class="font-headline-sm text-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">
-              Our Lady of Mount Carmel
-            </h3>
-<p class="font-headline-sm text-[16px] italic text-secondary font-normal mb-4">
-              “Zelo Zelatus Sum • Perpetual Intercession &amp; Mystical Silence”
-            </p>
-<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
-              A cloistered sanctuary dedicated to unceasing prayer for the Archdiocese and the global Church. Home to deep contemplative interiority, Eucharistic adoration, and pure liturgical altar breads.
-            </p>
-<div class="flex flex-wrap gap-2 mb-8">
-<span class="px-2.5 py-1 rounded-sm bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Interior Prayer (Mental Prayer)</span>
-<span class="px-2.5 py-1 rounded-sm bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Perpetual Adoration</span>
-<span class="px-2.5 py-1 rounded-sm bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Altar Bread Bakery</span>
-<span class="px-2.5 py-1 rounded-sm bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Teresian Spirituality</span>
-</div>
-</div>
-<div class="pt-6 bg-surface-container-lowest flex items-center justify-between">
-<a class="inline-flex items-center gap-2 font-title-md text-title-md text-primary hover:text-secondary transition-colors group/btn" data-path="carmelite-monastery" href="#">
-<span>Enter Sanctuary Guide</span>
-<span class="material-symbols-outlined text-[18px] group-hover/btn:translate-x-1 transition-transform">east</span>
-</a>
-<span class="material-symbols-outlined text-secondary text-[24px]">local_fire_department</span>
-</div>
-</div>
-</article>
-<!-- Card 3: Holy Cross Monastery, Nteje -->
-<article class="group rounded-xl bg-surface-container-lowest overflow-hidden flex flex-col shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
-<div class="relative h-64 overflow-hidden bg-surface-container">
-<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Quiet path through a Cistercian monastery forest hermitage in Nteje Nigeria, with stone markers, bamboo grove, and early morning fog drifting through ancient tall trees with gentle birdsong." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCnZYEhGuYkGtuNQp8sHlHsn4w28RCyD3lbz0ucTok-TAFZzol6bGquWRpqfkHCWz7nryL5rVI6aPZoKrdAtxlMPxaiKBKeXXu2EiMdD2y7CZ1j1tGlLgq6cLrJdTp7QbPjYZS8ChVOR0nd8wQo5KSVLtdgfyVxfQzp4LI9TJOIZypkX4_yTaPrkmMsNdmhTMWpMApCWGNiGe9jVdsDmqssCy2aLhBE7PtJQQs3YHL--Lf-JxHdWydU')"></div>
-<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent"></div>
-<div class="absolute top-4 left-4">
-<span class="px-3 py-1 rounded-sm bg-surface-bright/90 backdrop-blur-md text-primary font-label-sm text-label-sm uppercase tracking-wider font-semibold shadow-sm">
-              Cistercian Tradition (OCSO)
-            </span>
-</div>
-<div class="absolute bottom-4 left-4 right-4 flex items-center justify-between text-surface-bright">
-<div class="flex items-center gap-1.5 font-label-sm text-label-sm tracking-wide">
-<span class="material-symbols-outlined text-[16px] text-secondary-fixed">pin_drop</span>
-<span>Nteje, Oyi LGA</span>
-</div>
-<span class="px-2 py-0.5 rounded bg-surface-container-highest text-primary text-[10px] font-semibold uppercase tracking-widest">
-              Forest Priory
-            </span>
-</div>
-</div>
-<div class="p-6 sm:p-8 flex-1 flex flex-col justify-between">
-<div>
-<h3 class="font-headline-sm text-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">
-              Holy Cross Monastery
-            </h3>
-<p class="font-headline-sm text-[16px] italic text-secondary font-normal mb-4">
-              “Radical Simplicity, Vigils &amp; Sacred Silence in the Groves”
-            </p>
-<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
-              Situated in the gentle woodland clearing near Nteje, this priory honors rigorous pre-dawn vigils, forest meditation trails, and solemn Trappist silence for personal soul renewal.
-            </p>
-<div class="flex flex-wrap gap-2 mb-8">
-<span class="px-2.5 py-1 rounded-sm bg-surface-container font-label-sm text-label-sm text-on-surface-variant">3:30 AM Vigils</span>
-<span class="px-2.5 py-1 rounded-sm bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Solitary Forest Trails</span>
-<span class="px-2.5 py-1 rounded-sm bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Pure Beeswax Tapers</span>
-<span class="px-2.5 py-1 rounded-sm bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Strict Grand Silence</span>
-</div>
-</div>
-<div class="pt-6 bg-surface-container-lowest flex items-center justify-between">
-<a class="inline-flex items-center gap-2 font-title-md text-title-md text-primary hover:text-secondary transition-colors group/btn" data-path="holy-cross-monastery-nteje" href="#">
-<span>Enter Sanctuary Guide</span>
-<span class="material-symbols-outlined text-[18px] group-hover/btn:translate-x-1 transition-transform">east</span>
-</a>
-<span class="material-symbols-outlined text-secondary text-[24px]">forest</span>
-</div>
-</div>
-</article>
-</div>
-</section>
-<!-- Interactive Pillars of Monastic Life: Bento Section -->
-<section class="w-full bg-surface-container-low py-24">
-<div class="max-w-7xl mx-auto px-6 lg:px-12">
-<div class="text-center max-w-3xl mx-auto mb-16">
-<span class="font-label-md text-label-md uppercase tracking-[0.18em] text-secondary block font-semibold mb-2">
-          Sanctified Pilgrimage Experience
-        </span>
-<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight mb-4">
-          Traditions Rooted in the Heart of the Church
-        </h2>
-<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-          From ancient rules of guest-mastery to artisanal monastic craftsmanship, experience the restorative balance of Catholic prayer traditions in Anambra.
-        </p>
-</div>
-<!-- Bento Grid Layout -->
-<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
-<!-- Bento 1: Hospitium / Rule of Hospitality (Large Column) -->
-<div class="md:col-span-7 bg-surface-container-lowest rounded-xl p-8 lg:p-10 shadow-sm flex flex-col justify-between">
-<div>
-<div class="flex items-center justify-between mb-6">
-<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary">
-<span class="material-symbols-outlined text-[28px]">bed</span>
-</div>
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">
-                Chapter 53 • Holy Rule
-              </span>
-</div>
-<h3 class="font-headline-md text-headline-md text-primary mb-3">
-              The Sacred Rule of Hospitium
-            </h3>
-<p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
-              “All guests who present themselves are to be welcomed as Christ, for He Himself will say: I was a stranger and you welcomed me.” Monasteries in Anambra maintain silent lodging cells for men, women, priests, and religious seekers wanting uninterrupted retreats.
-            </p>
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-<div class="p-4 rounded-lg bg-surface-container-low">
-<span class="font-title-md text-title-md text-primary block mb-1">Private Hermitage Cells</span>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Simple desks, cross, prayer bench, and natural ventilation.</span>
-</div>
-<div class="p-4 rounded-lg bg-surface-container-low">
-<span class="font-title-md text-title-md text-primary block mb-1">Refectory Meals</span>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Fresh organic produce shared in serene reflective silence.</span>
-</div>
-</div>
-</div>
-<div class="pt-6">
-<a class="inline-flex items-center gap-2 font-title-md text-title-md text-primary hover:text-secondary transition-colors" data-path="monastic-retreats-hospitality" href="#">
-<span>View Hospitium Booking Guidelines</span>
-<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
-</a>
-</div>
-</div>
-<!-- Bento 2: Monastic Artisanship & Products -->
-<div class="md:col-span-5 bg-primary text-on-primary rounded-xl p-8 lg:p-10 shadow-lg flex flex-col justify-between">
-<div>
-<div class="flex items-center justify-between mb-6">
-<div class="w-12 h-12 rounded-lg bg-surface-container-highest/10 flex items-center justify-center text-secondary-fixed">
-<span class="material-symbols-outlined text-[28px]">spa</span>
-</div>
-<span class="px-2.5 py-1 rounded bg-secondary text-surface font-label-sm text-label-sm uppercase tracking-wider font-semibold">
-                Pure • Consecrated
-              </span>
-</div>
-<h3 class="font-headline-md text-headline-md text-surface-bright mb-3">
-              Craft of Sanctified Hands
-            </h3>
-<p class="font-body-md text-body-md text-surface-container-highest mb-6 leading-relaxed">
-              Support the monastic brethren and sisters through natural remedies and liturgical products prepared according to time-honored heritage:
-            </p>
-<ul class="space-y-3.5 mb-8 text-surface-bright">
-<li class="flex items-start gap-3">
-<span class="material-symbols-outlined text-secondary-fixed text-[20px] flex-shrink-0 mt-0.5">check_circle</span>
-<span class="font-body-md text-body-md">Pure Wildflower Honey harvested from monastery forest hives.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="material-symbols-outlined text-secondary-fixed text-[20px] flex-shrink-0 mt-0.5">check_circle</span>
-<span class="font-body-md text-body-md">Hand-pressed wheat Communion Wafers crafted for diocesan parishes.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="material-symbols-outlined text-secondary-fixed text-[20px] flex-shrink-0 mt-0.5">check_circle</span>
-<span class="font-body-md text-body-md">Iroko wood hand-knotted Marian Rosaries and pectoral crosses.</span>
-</li>
-<li class="flex items-start gap-3">
-<span class="material-symbols-outlined text-secondary-fixed text-[20px] flex-shrink-0 mt-0.5">check_circle</span>
-<span class="font-body-md text-body-md">Traditional medicinal skin salves and herbal health balms.</span>
-</li>
-</ul>
-</div>
-<div class="pt-4">
-<span class="font-label-md text-label-md text-secondary-fixed tracking-wider uppercase">
-              Available at Monastery Porter's Lodge
-            </span>
-</div>
-</div>
-<!-- Bento 3: Silence & Contemplation Meter -->
-<div class="md:col-span-6 bg-surface-container-lowest rounded-xl p-8 shadow-sm flex flex-col justify-between">
-<div>
-<div class="flex items-center gap-3 mb-4">
-<span class="material-symbols-outlined text-secondary text-[24px]">volume_off</span>
-<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold">The Great Silence (Silentium Magnum)</span>
-</div>
-<h4 class="font-headline-sm text-headline-sm text-primary mb-2">The Architecture of Stillness</h4>
-<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
-              Silence is not merely the absence of sound, but the presence of attentiveness to God. Monasteries observe two liturgical spheres of quietude:
-            </p>
-<div class="space-y-4">
-<div class="p-4 rounded-lg bg-surface-container-low">
-<div class="flex justify-between items-center mb-1">
-<span class="font-title-md text-title-md text-primary">Daytime Cloistral Silence</span>
-<span class="font-label-sm text-label-sm font-semibold text-secondary">06:00 – 20:30</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Low voices permitted strictly in guest hospitium, refectory porches, and pilgrimage chapels.</p>
-</div>
-<div class="p-4 rounded-lg bg-surface-container-high">
-<div class="flex justify-between items-center mb-1">
-<span class="font-title-md text-title-md text-primary">Grand Silence</span>
-<span class="font-label-sm text-label-sm font-semibold text-secondary">21:00 – 06:00</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Absolute silence across the entire monastic territory. No speech, no devices; solitary communion with God.</p>
-</div>
-</div>
-</div>
-</div>
-<!-- Bento 4: Regional Pilgrimage Transit Connectivity -->
-<div class="md:col-span-6 bg-surface-container-lowest rounded-xl p-8 shadow-sm flex flex-col justify-between">
-<div>
-<div class="flex items-center gap-3 mb-4">
-<span class="material-symbols-outlined text-secondary text-[24px]">explore</span>
-<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold">Pilgrim Travel Hubs</span>
-</div>
-<h4 class="font-headline-sm text-headline-sm text-primary mb-2">Reaching the Sanctuaries</h4>
-<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
-              Each holy site is easily accessible via the main transportation arteries connecting Anambra's historical hubs:
-            </p>
-<div class="grid grid-cols-3 gap-3 text-center mb-6">
-<div class="p-3 rounded-lg bg-surface-container-low">
-<span class="font-title-md text-title-md text-primary block">Onitsha</span>
-<span class="font-body-sm text-body-sm text-secondary font-medium">30-45 mins</span>
-<span class="text-[11px] text-on-surface-variant block mt-0.5">To Ozubulu / Nteje</span>
-</div>
-<div class="p-3 rounded-lg bg-surface-container-low">
-<span class="font-title-md text-title-md text-primary block">Awka</span>
-<span class="font-body-sm text-body-sm text-secondary font-medium">20-35 mins</span>
-<span class="text-[11px] text-on-surface-variant block mt-0.5">To Nteje / Carmelites</span>
-</div>
-<div class="p-3 rounded-lg bg-surface-container-low">
-<span class="font-title-md text-title-md text-primary block">Nnewi</span>
-<span class="font-body-sm text-body-sm text-secondary font-medium">15-20 mins</span>
-<span class="text-[11px] text-on-surface-variant block mt-0.5">To St. Benedict Ozubulu</span>
-</div>
-</div>
-</div>
-<div class="pt-4 flex items-center justify-between">
-<span class="font-body-sm text-body-sm text-on-surface-variant">Recommended transport: Registered private charters &amp; diocese taxis.</span>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Interactive Daily Horarium: The Liturgy of the Hours -->
-<section class="max-w-7xl mx-auto px-6 lg:px-12 py-24 w-full">
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-<!-- Left Explanation Column -->
-<div class="lg:col-span-5">
-<span class="font-label-md text-label-md uppercase tracking-[0.16em] text-secondary mb-2 block font-semibold">
-          Opus Dei • The Work of God
-        </span>
-<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight mb-6">
-          The Rhythm of the Hours
-        </h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-6 font-light">
-          Monastic day is woven with seven canonical pauses, consecrating every turn of daylight and night to praise and contemplation. 
-        </p>
-<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-8">
-          Visitors residing in the hospitium are warmly encouraged to enter the cloister chapel quietly before the choir bell rings. Breviaries and Latin/English psalters are placed at the chapel entrance for all faithful.
-        </p>
-<!-- Monastic Wisdom Card -->
-<div class="p-6 rounded-xl bg-surface-container-high text-on-surface border-l-4 border-secondary shadow-sm">
-<p class="font-headline-sm text-[18px] italic text-primary leading-relaxed mb-3">
-            “Seven times a day have I praised Thee, because of the judgments of Thy justice.”
-          </p>
-<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-semibold">
-            Psalm 119:164 • Regula Benedicti
-          </span>
-</div>
-</div>
-<!-- Right Tabular Timetable Column -->
-<div class="lg:col-span-7">
-<div class="rounded-xl bg-surface-container-lowest p-6 sm:p-8 shadow-sm">
-<div class="flex items-center justify-between pb-6 mb-6">
-<h3 class="font-title-lg text-title-lg text-primary font-semibold">Daily Monastic Timetable</h3>
-<span class="px-3 py-1 rounded bg-secondary-fixed/50 text-on-secondary-fixed font-label-sm text-label-sm uppercase tracking-wider font-semibold">
-              Monday – Sunday
-            </span>
-</div>
-<div class="space-y-4">
-<!-- Vigils -->
-<div class="flex items-center justify-between p-4 rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors">
-<div class="flex items-center gap-4">
-<span class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-sm text-label-sm font-semibold">
-                  03:45
-                </span>
-<div>
-<span class="font-title-md text-title-md text-primary block">Vigiliae / Matins</span>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Night vigil of silent psalms in darkness before dawn</span>
-</div>
-</div>
-<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold hidden sm:inline">Solemn Choir</span>
-</div>
-<!-- Lauds -->
-<div class="flex items-center justify-between p-4 rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors">
-<div class="flex items-center gap-4">
-<span class="w-10 h-10 rounded-full bg-secondary text-surface flex items-center justify-center font-label-sm text-label-sm font-semibold">
-                  06:00
-                </span>
-<div>
-<span class="font-title-md text-title-md text-primary block">Laudes • Morning Praise</span>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Sunrise thanksgiving followed by Community Conventual Mass</span>
-</div>
-</div>
-<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold hidden sm:inline">Open to Public</span>
-</div>
-<!-- Terce & Labor -->
-<div class="flex items-center justify-between p-4 rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors">
-<div class="flex items-center gap-4">
-<span class="w-10 h-10 rounded-full bg-surface-container-highest text-primary flex items-center justify-center font-label-sm text-label-sm font-semibold">
-                  09:00
-                </span>
-<div>
-<span class="font-title-md text-title-md text-primary block">Tertia • Mid-Morning Hour</span>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Invocation of the Holy Spirit before farm and monastic chores</span>
-</div>
-</div>
-<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider hidden sm:inline">Manual Work</span>
-</div>
-<!-- Sext -->
-<div class="flex items-center justify-between p-4 rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors">
-<div class="flex items-center gap-4">
-<span class="w-10 h-10 rounded-full bg-surface-container-highest text-primary flex items-center justify-center font-label-sm text-label-sm font-semibold">
-                  12:15
-                </span>
-<div>
-<span class="font-title-md text-title-md text-primary block">Sexta • Midday Prayer</span>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Angelus, brief psalmody, followed by silent refectory meal</span>
-</div>
-</div>
-<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider hidden sm:inline">Refectory</span>
-</div>
-<!-- None -->
-<div class="flex items-center justify-between p-4 rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors">
-<div class="flex items-center gap-4">
-<span class="w-10 h-10 rounded-full bg-surface-container-highest text-primary flex items-center justify-center font-label-sm text-label-sm font-semibold">
-                  15:00
-                </span>
-<div>
-<span class="font-title-md text-title-md text-primary block">Nona • Mid-Afternoon Hour</span>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Commemoration of the Lord's Passion on the Cross</span>
-</div>
-</div>
-<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider hidden sm:inline">Liturgy</span>
-</div>
-<!-- Vespers -->
-<div class="flex items-center justify-between p-4 rounded-lg bg-secondary-fixed/30 hover:bg-secondary-fixed/50 transition-colors">
-<div class="flex items-center gap-4">
-<span class="w-10 h-10 rounded-full bg-secondary text-surface flex items-center justify-center font-label-sm text-label-sm font-semibold">
-                  18:00
-                </span>
-<div>
-<span class="font-title-md text-title-md text-primary block">Vesperae • Evening Chants</span>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Chanted Magnificat, incense blessing &amp; guest attendance</span>
-</div>
-</div>
-<span class="px-2.5 py-1 rounded bg-secondary text-surface text-[10px] font-semibold uppercase tracking-wider">
-                Full Sung Choir
-              </span>
-</div>
-<!-- Compline -->
-<div class="flex items-center justify-between p-4 rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors">
-<div class="flex items-center gap-4">
-<span class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-sm text-label-sm font-semibold">
-                  20:00
-                </span>
-<div>
-<span class="font-title-md text-title-md text-primary block">Completorium • Night Prayer</span>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Examination of conscience, Salve Regina, holy water asperges</span>
-</div>
-</div>
-<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider font-semibold hidden sm:inline">Grand Silence Follows</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Interactive Pilgrimage Inquiry & Prayer Intention Sanctum -->
-<section class="w-full bg-surface-container py-24">
-<div class="max-w-5xl mx-auto px-6 lg:px-12">
-<div class="rounded-2xl bg-surface-container-lowest p-8 sm:p-14 shadow-xl">
-<div class="text-center max-w-2xl mx-auto mb-12">
-<span class="w-10 h-10 rounded-full bg-secondary-fixed/40 text-secondary inline-flex items-center justify-center mb-4">
-<span class="material-symbols-outlined text-[22px]">volunteer_activism</span>
-</span>
-<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight mb-3">
-            Entrust Your Intentions to Monastic Prayer
-          </h2>
-<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            The monks and cloistered nuns remember all heartfelt intentions in their daily communal Masses and Vigils before the Blessed Sacrament.
-          </p>
-</div>
-<form class="space-y-6" id="monastic-intention-form" onsubmit="event.preventDefault(); submitPrayerIntention();">
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-<div>
-<label class="block font-label-md text-label-md text-primary uppercase tracking-wider mb-2 font-medium">
-                Pilgrim / Requester Name
-              </label>
-<input class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface font-body-md text-body-md shadow-sm focus:outline-none focus:ring-2 focus:ring-secondary/50 placeholder:text-outline-variant" placeholder="e.g., Emeka &amp; Chidimma Okoye" required="" type="text"/>
-</div>
-<div>
-<label class="block font-label-md text-label-md text-primary uppercase tracking-wider mb-2 font-medium">
-                Email Address for Confirmation
-              </label>
-<input class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface font-body-md text-body-md shadow-sm focus:outline-none focus:ring-2 focus:ring-secondary/50 placeholder:text-outline-variant" placeholder="pilgrim@domain.com" required="" type="email"/>
-</div>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-<div>
-<label class="block font-label-md text-label-md text-primary uppercase tracking-wider mb-2 font-medium">
-                Dedicated Monastery Sanctuary
-              </label>
-<select class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface font-body-md text-body-md shadow-sm focus:outline-none focus:ring-2 focus:ring-secondary/50">
-<option value="all">All Anambra Monasteries (Communal Petitions)</option>
-<option value="ozubulu">St. Benedict Monastery, Ozubulu (OSB)</option>
-<option value="carmel">Our Lady of Mount Carmel, Awka/Ekwulobia (OCD)</option>
-<option value="nteje">Holy Cross Cistercian Monastery, Nteje (OCSO)</option>
-</select>
-</div>
-<div>
-<label class="block font-label-md text-label-md text-primary uppercase tracking-wider mb-2 font-medium">
-                Category of Prayer Intention
-              </label>
-<select class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface font-body-md text-body-md shadow-sm focus:outline-none focus:ring-2 focus:ring-secondary/50">
-<option value="thanksgiving">Thanksgiving for God's Grace</option>
-<option value="healing">Physical or Spiritual Healing</option>
-<option value="family">Peace in Families and Sacred Vocations</option>
-<option value="departure">Repose of the Faithful Departed</option>
-<option value="discernment">Discernment of Life Vocation</option>
-</select>
-</div>
-</div>
-<div>
-<label class="block font-label-md text-label-md text-primary uppercase tracking-wider mb-2 font-medium">
-              Confidential Petition or Intercession Note
-            </label>
-<textarea class="w-full px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface font-body-md text-body-md shadow-sm focus:outline-none focus:ring-2 focus:ring-secondary/50 placeholder:text-outline-variant" placeholder="Write your silent prayer here. The intentions are printed reverently and laid upon the chapel altar before the Eucharistic celebration..." required="" rows="4"></textarea>
-</div>
-<div class="flex flex-col sm:flex-row items-center justify-between gap-6 pt-4">
-<div class="flex items-center gap-3">
-<input class="w-4 h-4 rounded text-secondary focus:ring-secondary cursor-pointer" id="candle-token" type="checkbox"/>
-<label class="font-body-sm text-body-sm text-on-surface-variant cursor-pointer" for="candle-token">
-                Light a virtual 7-day Sanctuary Vigil Candle at the selected cloister altar
-              </label>
-</div>
-<button class="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-title-md text-title-md transition-all shadow-md flex items-center justify-center gap-2" type="submit">
-<span class="material-symbols-outlined text-[18px]">send</span>
-<span>Submit to Monastic Prayers</span>
-</button>
-</div>
-<!-- Success Alert Message -->
-<div class="hidden p-4 rounded-lg bg-secondary-fixed/50 text-on-secondary-fixed text-center font-body-md text-body-md animate-fade-in" id="prayer-success-banner">
-<div class="flex items-center justify-center gap-2 font-semibold">
-<span class="material-symbols-outlined text-[20px]">check_circle</span>
-<span>Your prayer intention has been consecrated and sent to the monastic community.</span>
-</div>
-</div>
-</form>
-</div>
-</div>
-</section>
-<!-- Voices of Pilgrims & Spiritual Direction -->
-<section class="max-w-7xl mx-auto px-6 lg:px-12 py-24 w-full">
-<div class="text-center max-w-2xl mx-auto mb-16">
-<span class="font-label-md text-label-md uppercase tracking-[0.16em] text-secondary mb-2 block font-semibold">
-        Sanctuary Testimonies
-      </span>
-<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
-        Words of Renewed Souls
-      </h2>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-<!-- Testimonial 1 -->
-<div class="p-8 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
-<div>
-<div class="flex text-secondary mb-4">
-<span class="material-symbols-outlined text-[18px]">star</span>
-<span class="material-symbols-outlined text-[18px]">star</span>
-<span class="material-symbols-outlined text-[18px]">star</span>
-<span class="material-symbols-outlined text-[18px]">star</span>
-<span class="material-symbols-outlined text-[18px]">star</span>
-</div>
-<p class="font-body-md text-body-md text-on-surface-variant italic leading-relaxed mb-6">
-            “The silence at St. Benedict Monastery in Ozubulu unlocked a depth of prayer I had never felt in Lagos. The chanting of the Divine Office at sunset made the world disappear.”
-          </p>
-</div>
-<div class="flex items-center gap-3 pt-4">
-<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-primary font-semibold font-title-md">
-            CO
-          </div>
-<div>
-<span class="font-title-md text-title-md text-primary block leading-snug">Chukwuemeka Obi</span>
-<span class="font-label-sm text-label-sm text-on-surface-variant">Architect • 4-Day Silent Retreat</span>
-</div>
-</div>
-</div>
-<!-- Testimonial 2 -->
-<div class="p-8 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
-<div>
-<div class="flex text-secondary mb-4">
-<span class="material-symbols-outlined text-[18px]">star</span>
-<span class="material-symbols-outlined text-[18px]">star</span>
-<span class="material-symbols-outlined text-[18px]">star</span>
-<span class="material-symbols-outlined text-[18px]">star</span>
-<span class="material-symbols-outlined text-[18px]">star</span>
-</div>
-<p class="font-body-md text-body-md text-on-surface-variant italic leading-relaxed mb-6">
-            “Sitting in the chapel of the Carmelite nuns in adoration brought tears of consolation. The quiet reverence, the flickering beeswax candles, and the complete peace restored my spirit.”
-          </p>
-</div>
-<div class="flex items-center gap-3 pt-4">
-<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-primary font-semibold font-title-md">
-            AN
-          </div>
-<div>
-<span class="font-title-md text-title-md text-primary block leading-snug">Dr. Adaora Nwosu</span>
-<span class="font-label-sm text-label-sm text-on-surface-variant">Medical Doctor • Awka Diocese</span>
-</div>
-</div>
-</div>
-<!-- Testimonial 3 -->
-<div class="p-8 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
-<div>
-<div class="flex text-secondary mb-4">
-<span class="material-symbols-outlined text-[18px]">star</span>
-<span class="material-symbols-outlined text-[18px]">star</span>
-<span class="material-symbols-outlined text-[18px]">star</span>
-<span class="material-symbols-outlined text-[18px]">star</span>
-<span class="material-symbols-outlined text-[18px]">star</span>
-</div>
-<p class="font-body-md text-body-md text-on-surface-variant italic leading-relaxed mb-6">
-            “Holy Cross Nteje is pure sanctuary. The forest path and pre-dawn vigils at 3:45 AM taught me what it means to be truly present to the Lord. A life-changing pilgrimage.”
-          </p>
-</div>
-<div class="flex items-center gap-3 pt-4">
-<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-primary font-semibold font-title-md">
-            FE
-          </div>
-<div>
-<span class="font-title-md text-title-md text-primary block leading-snug">Rev. Fr. Emmanuel Eze</span>
-<span class="font-label-sm text-label-sm text-on-surface-variant">Priestly Sabbatical Pilgrim</span>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Canonical Retreat Booking Invitation Banner -->
-<section class="w-full bg-primary text-on-primary py-16">
-<div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-8">
-<div class="max-w-2xl text-center md:text-left">
-<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary-fixed block mb-2 font-semibold">
-          Spiritual Direction &amp; Hospitium
-        </span>
-<h3 class="font-headline-lg text-headline-lg text-surface-bright tracking-tight mb-2">
-          Are You Called to a Period of Silent Retreat?
-        </h3>
-<p class="font-body-md text-body-md text-surface-container-highest">
-          Hospitium spaces are limited to maintain cloistral recollection. Inquire in advance for individual or clergy retreats.
-        </p>
-</div>
-<div class="flex flex-wrap items-center gap-4 flex-shrink-0">
-<a class="px-6 py-3.5 rounded-lg bg-secondary text-surface font-title-md text-title-md hover:bg-secondary-container hover:text-on-secondary-container transition-all shadow-md" data-path="plan-a-sacred-retreat" href="#">
-          Reserve Retreat Hospitium
-        </a>
-<a class="px-5 py-3.5 rounded-lg bg-surface/10 text-surface-bright hover:bg-surface/20 transition-all font-title-md text-title-md" data-path="visitor-guidelines-liturgy-hours" href="#">
-          Visitor's Rule of Silence
-        </a>
-</div>
-</div>
-</section>
-</div>
-<script>
-  function submitPrayerIntention() {
-    const banner = document.getElementById('prayer-success-banner');
-    if (banner) {
-      banner.classList.remove('hidden');
-      banner.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-      setTimeout(() => {
-        const form = document.getElementById('monastic-intention-form');
-        if (form) form.reset();
-      }, 2500);
-    }
-  }
-</script></main><footer class="w-full bg-surface-container-low text-on-surface mt-24"><div class="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12"><div class="text-center max-w-2xl mx-auto mb-16"><p class="font-headline-md text-headline-md text-primary italic mb-2">“Be still, and know that I am God”</p><span class="font-label-md text-label-md uppercase tracking-widest text-secondary">Psalm 46:10</span></div><div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-16"><div class="space-y-3"><span class="font-title-md text-title-md text-primary block">Sacred Sanctuaries</span><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Preserving contemplative silence, prayerful hospitality, and spiritual refuge across the dioceses of Anambra State, Nigeria.</p></div><div class="space-y-3"><span class="font-label-md text-label-md uppercase tracking-wider text-secondary block">Holy Orders &amp; Monasteries</span><ul class="space-y-2"><li class="font-body-sm text-body-sm text-on-surface-variant">Benedictine Abbey of St. Benedict, Ozubulu</li><li class="font-body-sm text-body-sm text-on-surface-variant">Holy Cross Cistercian Monastery, Nteje</li><li class="font-body-sm text-body-sm text-on-surface-variant">Discalced Carmelite Monastery, Holy Family</li></ul></div><div class="space-y-3"><span class="font-label-md text-label-md uppercase tracking-wider text-secondary block">Ecclesiastical Provinces</span><ul class="space-y-2"><li class="font-body-sm text-body-sm text-on-surface-variant">Catholic Archdiocese of Onitsha</li><li class="font-body-sm text-body-sm text-on-surface-variant">Catholic Diocese of Nnewi</li><li class="font-body-sm text-body-sm text-on-surface-variant">Catholic Diocese of Awka</li><li class="font-body-sm text-body-sm text-on-surface-variant">Catholic Diocese of Ekwulobia</li></ul></div><div class="space-y-3"><span class="font-label-md text-label-md uppercase tracking-wider text-secondary block">Hospitium &amp; Pilgrimage</span><ul class="space-y-2"><li class="font-body-sm text-body-sm text-on-surface-variant">Silent Contemplative Lodging</li><li class="font-body-sm text-body-sm text-on-surface-variant">Liturgy of the Hours (Horarium)</li><li class="font-body-sm text-body-sm text-on-surface-variant">Spiritual Direction &amp; Confession</li><li class="font-body-sm text-body-sm text-on-surface-variant">Venerable Monastic Agriculture</li></ul></div></div><div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8 text-on-surface-variant"><p class="font-body-sm text-body-sm">© 2025 Discover Monasteries Anambra. Dedicated to contemplative life &amp; Catholic heritage.</p><div class="flex items-center gap-6 font-label-md text-label-md uppercase tracking-widest text-on-surface-variant"><a class="hover:text-primary transition-colors" data-path="visitor-guidelines-liturgy-hours" href="#">Rule of Silence</a><a class="hover:text-primary transition-colors" data-path="monastic-retreats-hospitality" href="#">Hospitium Booking</a><a class="hover:text-primary transition-colors" data-path="prayer-intentions" href="#">Vigil Intentions</a></div></div></div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Discover Catholic monasteries, sacred spaces and places of prayer across Anambra State."
+    >
+
+    <title>
+        {% block title %}
+        Discover Monasteries | Anambra Sanctuaries
+        {% endblock %}
+    </title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <link
+        rel="stylesheet"
+        href="{% static 'monasteries/css/site.css' %}"
+    >
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        sanctuary: {
+                            950: "#071B15",
+                            900: "#102A22",
+                            800: "#183D31",
+                            gold: "#D6B36D",
+                            ivory: "#F7F3EB",
+                        }
+                    },
+
+                    fontFamily: {
+                        display: [
+                            "Georgia",
+                            "Times New Roman",
+                            "serif"
+                        ]
+                    }
+                }
+            }
+        }
+    </script>
+
+    {% block extra_head %}
+    {% endblock %}
+
+</head>
+
+
+<body class="bg-[#F7F3EB] text-[#292B27]">
+
+    <!-- NAVIGATION -->
+
+    <header
+        id="site-header"
+        class="fixed left-0 right-0 top-0 z-50
+               border-b border-white/10
+               bg-[#071B15]/90
+               backdrop-blur-xl"
+    >
+
+        <nav
+            class="mx-auto flex max-w-7xl
+                   items-center justify-between
+                   px-6 py-4 lg:px-8"
+        >
+
+            <!-- LOGO -->
+
+            <a
+                href="{% url 'home' %}"
+                class="group flex items-center gap-3"
+            >
+
+                <div
+                    class="flex h-11 w-11 items-center
+                           justify-center rounded-full
+                           border border-[#D6B36D]/50
+                           bg-[#D6B36D]/10"
+                >
+                    <span
+                        class="font-display text-lg
+                               text-[#D6B36D]"
+                    >
+                        ✦
+                    </span>
+                </div>
+
+                <div>
+                    <div
+                        class="font-display text-xl
+                               text-white"
+                    >
+                        Discover Monasteries
+                    </div>
+
+                    <div
+                        class="text-[9px] uppercase
+                               tracking-[0.3em]
+                               text-white/50"
+                    >
+                        Anambra Sanctuaries
+                    </div>
+                </div>
+
+            </a>
+
+
+            <!-- DESKTOP NAV -->
+
+            <div
+                class="hidden items-center gap-8
+                       md:flex"
+            >
+
+                <a
+                    href="{% url 'home' %}"
+                    class="text-sm text-white/80
+                           transition hover:text-[#D6B36D]"
+                >
+                    Monasteries
+                </a>
+
+                <a
+                    href="#about"
+                    class="text-sm text-white/80
+                           transition hover:text-[#D6B36D]"
+                >
+                    About
+                </a>
+
+                <a
+                    href="#visit"
+                    class="text-sm text-white/80
+                           transition hover:text-[#D6B36D]"
+                >
+                    Visitor Guide
+                </a>
+
+            </div>
+
+
+            <!-- MOBILE BUTTON -->
+
+            <button
+                id="mobile-menu-button"
+                type="button"
+                class="rounded-xl border
+                       border-white/10
+                       p-3 text-white
+                       md:hidden"
+                aria-label="Open menu"
+            >
+                ☰
+            </button>
+
+        </nav>
+
+
+        <!-- MOBILE MENU -->
+
+        <div
+            id="mobile-menu"
+            class="hidden border-t
+                   border-white/10
+                   bg-[#071B15]
+                   md:hidden"
+        >
+
+            <div class="space-y-1 px-6 py-5">
+
+                <a
+                    href="{% url 'home' %}"
+                    class="block rounded-xl px-4 py-3
+                           text-white/80 hover:bg-white/5"
+                >
+                    Monasteries
+                </a>
+
+                <a
+                    href="#about"
+                    class="block rounded-xl px-4 py-3
+                           text-white/80 hover:bg-white/5"
+                >
+                    About
+                </a>
+
+                <a
+                    href="#visit"
+                    class="block rounded-xl px-4 py-3
+                           text-white/80 hover:bg-white/5"
+                >
+                    Visitor Guide
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer
+        class="bg-[#071B15] px-6 py-16
+               text-white"
+    >
+
+        <div
+            class="mx-auto grid max-w-7xl
+                   gap-12 md:grid-cols-3"
+        >
+
+            <div>
+
+                <div class="font-display text-2xl">
+                    Discover Monasteries
+                </div>
+
+                <p
+                    class="mt-4 max-w-sm
+                           text-sm leading-7
+                           text-white/50"
+                >
+                    A digital guide to Catholic
+                    monasteries and sacred spaces
+                    across Anambra State.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <p
+                    class="text-xs uppercase
+                           tracking-[0.3em]
+                           text-[#D6B36D]"
+                >
+                    Explore
+                </p>
+
+                <div class="mt-5 space-y-3 text-sm">
+
+                    <a
+                        href="{% url 'home' %}"
+                        class="block text-white/60
+                               hover:text-white"
+                    >
+                        Monasteries
+                    </a>
+
+                    <a
+                        href="#about"
+                        class="block text-white/60
+                               hover:text-white"
+                    >
+                        About
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <p
+                    class="text-xs uppercase
+                           tracking-[0.3em]
+                           text-[#D6B36D]"
+                >
+                    Anambra
+                </p>
+
+                <p
+                    class="mt-5 text-sm
+                           leading-7 text-white/50"
+                >
+                    Sacred places. Quiet journeys.
+                    A deeper way to discover the
+                    spiritual heritage of Anambra.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div
+            class="mx-auto mt-14 max-w-7xl
+                   border-t border-white/10
+                   pt-7 text-xs
+                   text-white/30"
+        >
+            © {% now "Y" %} Discover Monasteries.
+        </div>
+
+    </footer>
+
+
+    <script>
+
+        const menuButton =
+            document.getElementById(
+                "mobile-menu-button"
+            );
+
+        const mobileMenu =
+            document.getElementById(
+                "mobile-menu"
+            );
+
+        menuButton.addEventListener(
+            "click",
+            () => {
+                mobileMenu.classList.toggle(
+                    "hidden"
+                );
+            }
+        );
+
+    </script>
+
+    {% block extra_scripts %}
+    {% endblock %}
+
+</body>
+</html>

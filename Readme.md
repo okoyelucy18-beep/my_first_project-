@@ -1,1 +1,1 @@
-you are an award winning UI\UX designer, design a profession discovery website called Discover Monasteries, in the home page show all the catholic monasteries in anambra state and give each monastery their own page so onclick it should take users to their respective pages , in each of the monastery pages write about them what makes them unique their location and the dos and donts of each place and directions 
+   

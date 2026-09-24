@@ -1,0 +1,95 @@
+:root {
+    --sanctuary-green: #102a22;
+    --sanctuary-dark: #071b15;
+    --sanctuary-gold: #d6b36d;
+    --sanctuary-ivory: #f7f3eb;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    background: var(--sanctuary-ivory);
+}
+
+
+::selection {
+    background: var(--sanctuary-gold);
+    color: var(--sanctuary-dark);
+}
+
+
+/* Display typography */
+
+.font-display {
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+}
+
+
+/* Sanctuary card */
+
+.soft-card {
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(16, 42, 34, 0.08);
+}
+
+
+/* Image transitions */
+
+img {
+    max-width: 100%;
+}
+
+
+/* Better keyboard accessibility */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+    outline: 3px solid
+        rgba(214, 179, 109, 0.7);
+
+    outline-offset: 3px;
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #071b15;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #355448;
+    border-radius: 999px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #d6b36d;
+}
+
+
+/* Mobile */
+
+@media (max-width: 640px) {
+
+    h1 {
+        letter-spacing: -0.03em;
+    }
+
+}
