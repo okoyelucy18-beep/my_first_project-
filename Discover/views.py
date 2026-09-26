@@ -52,7 +52,7 @@ def home(request):
             messages.success(request, 'Your retreat request has been submitted successfully.')
             return redirect('home')
 
-        if search:
+    if search:
         monasteries = monasteries.filter(
             Q(name__icontains=search)
             | Q(location__icontains=search)
